@@ -1,0 +1,11 @@
+englishgame1 & sciencegame1
+[1] Coding with Nick. 2021. Create a Quiz App using HTML CSS & JavaScript. Retrieved October 18, 2022 from https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/
+
+mathgame1
+[2] Chris. 2018. Math game 0.2 - Codepen. (May 2018). Retrieved October 20, 2022 from https://codepen.io/LouBagel/pen/YLJebr 
+
+mathgame2
+[3] razormist. 2021. Multiplying Number Game using JavaScript with Source Code. Retrieved October 19, 2022 from https://www.sourcecodester.com/javascript/14704/multiplying-number-game-using-javascript-source-code.html
+
+mathgame3
+[4] Skip R. 2016. Simple math game - codepen.io. (May 2016). Retrieved October 20, 2022 from https://codepen.io/slc/pen/jqjLOy

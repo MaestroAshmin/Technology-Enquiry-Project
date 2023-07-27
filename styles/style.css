@@ -1,0 +1,444 @@
+* {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+
+
+
+/* Enquire contains the enquire form where the user can enter their information in */
+.enquire {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: #545454;
+}
+
+.enquire .form_body {
+  display: block;
+  text-align: center;
+}
+
+.enquire form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 50%;
+  padding: 2.5%;
+  padding-top: 2vh;
+  text-align: left;
+  background-color: rgba(255,229,180, 0.4);
+  box-shadow: -20px 0 40px rgba(255,229,180, 0.4);
+}
+
+.enquire .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.enquire form input,
+select {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.enquire .row {
+  margin-bottom: 2vh;
+}
+
+.enquire form h1 {
+  text-align: left;
+}
+
+.enquire form h2 {
+  border-top: 2px solid #545454;
+  padding-top: 2vh;
+  border-bottom: 2px solid #545454;
+  padding-bottom: 2vh;
+  margin-top: 4vh;
+}
+
+/* Enquire is dividing into 2 containers which are info-master and feedback-master */
+/* Left contains all the labels while Right contains all the inputs for the label */
+.enquire .info-master {
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
+}
+
+.enquire .info-master .left {
+  float: left;
+  width: 25%;
+  margin-top: 1vh;
+  margin-left: 1vw;
+}
+
+.enquire .info-master .right #person-type {
+  float: left;
+  margin-top: 1vh;
+}
+
+.enquire .info-master .right #firstname,
+.enquire .info-master .right #lastname {
+  float: left;
+  width: 10vw;
+  margin-top: 1vh;
+}
+
+.enquire .info-master .right #email {
+  float: left;
+  width: 15vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.enquire .info-master .right input:focus {
+  background-color: lightblue;
+}
+
+.enquire .info-master .left {
+  float: left;
+  width: 20%;
+  margin-top: 1vh;
+}
+
+.enquire .info-master .right #streetaddress {
+  float: left;
+  width: 30vw;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+
+.enquire .info-master #phone-no-row {
+  margin-bottom: 2vh;
+}
+
+.enquire .info-master .left p {
+  margin: 0;
+}
+
+.enquire .info-master #right-contact-radio label {
+  margin-right: 2vw;
+  margin-top: 1.2vh;
+}
+
+.enquire .info-master #right-contact-radio input {
+  margin-top: 1.2vh;
+}
+
+.enquire .feedback-master {
+  padding-bottom: 2vh;
+  margin-bottom: 5vh;
+}
+
+.enquire .feedback-master h2 {
+  margin-top: 0;
+}
+
+.enquire .feedback-master .left {
+  float: left;
+  width: 25%;
+  margin-left: 1vw;
+}
+
+.enquire .feedback-master .right {
+  float: left;
+  width: 25%;
+}
+
+.enquire .feedback-master .right #feedback-type {
+  float: left;
+  margin-top: 1vh;
+}
+
+
+.enquire .comment-master {
+  display: flex;
+  flex-direction: column;
+}
+
+.enquire .comment-master label {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.enquire .comment-master textarea {
+  padding-bottom: 5vh;
+  margin-bottom: 2vh;
+}
+
+.enquire #submitButton {
+  float: right;
+}
+
+/* iPad screen resolution */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* iPhone 6/7/8 & iPhone X screen resolution */
+@media screen and (max-device-width: 480px) {
+}
+
+
+
+
+
+
+
+
+
+
+/* login page */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+
+.form-inline my-2 my-lg-0 {
+  float:right;
+}
+
+
+
+
+
+/* Account settings */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.account_setting{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: aliceblue;
+}
+
+.account_setting .wrapper{
+  padding: 30px 50px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  margin: 10px auto;
+  max-width: 800px;
+}
+.account_setting h4{
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+.account_setting .img{
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.account_setting #img-section p, .account_setting #deactivate p{
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.account_setting #img-section b, .account_setting #img-section button, .account_setting #deactivate b{
+  font-size: 14px; 
+}
+
+.account_setting label{
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #777;
+  padding-left: 3px;
+}
+
+.account_setting .form-control{
+  border-radius: 10px;
+}
+
+.account_setting input[placeholder]{
+  font-weight: 500;
+}
+.account_setting .form-control:focus{
+  box-shadow: none;
+  border: 1.5px solid #0779e4;
+}
+.account_setting select{
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  height: 40px;
+  padding: 5px 10px;
+  /* -webkit-appearance: none; */
+}
+
+.account_setting select:focus{
+  outline: none;
+}
+.account_setting .button{
+  background-color: #fff;
+  color: #0779e4;
+}
+.account_setting .button:hover{
+  background-color: #0779e4;
+  color: #fff;
+}
+.account_setting .btn-primary{
+  background-color: #0779e4;
+}
+.account_setting .danger{
+  background-color: #fff;
+  color: #e20404;
+  border: 1px solid #ddd;
+}
+.account_setting .danger:hover{
+  background-color: #e20404;
+  color: #fff;
+}
+
+.account_setting .center{margin-left: auto;margin-right: auto;}
+
+
+.account_setting #saveButton {
+  float: right;
+}
+
+.account_setting .py-3 {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+
+@media(max-width:576px){
+  .account_setting .wrapper{
+      padding: 25px 20px;
+  }
+  .account_setting #deactivate{
+      line-height: 18px;
+  }
+}
+
+
+
+
+
+/* Home */
+.home #welcome_section {
+  background-image: url("../images/welcome.jpg");
+  background-size: 100% 100%;
+  margin: 0;
+}
+
+.home #card_container {
+  max-width: 70%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
+.home #end_section {
+  background-image: url("../images/readytojoin.jpg");
+  background-size: 100% 100%;
+  margin: 0;
+}
+
+.home .carousel-inner{
+  width:100%;
+  max-height: 100% !important;
+}
+
+.account_setting table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.account_setting #user_information {
+  border-bottom: 2px solid lightblue;
+}
+
+/* dashboard table */
+table.dashboard,
+table.dashboard th,
+table.dashboard td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+table.dashboard tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 15%;
+  height: auto;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 85%;
+  border-left: none;
+  height: auto;
+  display: none;
+}
